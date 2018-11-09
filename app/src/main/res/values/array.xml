@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_images">
+    <item name="cupcake">@drawable/cupcake</item>
+    <item name="icecream">@drawable/icecream</item>
+    <item name="nutella_pie">@drawable/nutella_pie</item>
+    <item name="brownies">@drawable/brownies</item>
+    <item name="yellow_cake">@drawable/yellow_cake</item>
+    <item name="cheesecake">@drawable/strawberrycheesecake</item>
+    </array>
+</resources>

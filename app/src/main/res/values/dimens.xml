@@ -1,0 +1,70 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <!--Widget dimens-->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_tv_measure_margin">4dp</dimen>
+    <dimen name="widget_padding">8dp</dimen>
+    <dimen name="widget_ingredient_weight">2</dimen>
+    <dimen name="widget_button_width">140dp</dimen>
+    <dimen name="widget_image_dimens">80dp</dimen>
+
+    <!--Layout baking steps dimens -->
+    <dimen name="ingredients_button_height">80dp</dimen>
+    <dimen name="baking_steps_tv_height">40dp</dimen>
+    <dimen name="baking_steps_margin">6dp</dimen>
+    <dimen name="view_line">2dp</dimen>
+    <dimen name="view_line_sm">.5dp</dimen>
+    <dimen name="view_line_width">300dp</dimen>
+
+
+
+    <!--Layout detail dimens -->
+    <dimen name="detail_linear_margin">4dp</dimen>
+    <dimen name="prev_next_button_width">180dp</dimen>
+    <dimen name="prev_next_button_height">60dp</dimen>
+    <dimen name="prev_next_button_width_sw600">240dp</dimen>
+    <dimen name="prev_next_button_height_sw600">80dp</dimen>
+    <dimen name="detail_margin">4dp</dimen>
+    <dimen name="detail_margin_top">8dp</dimen>
+    <dimen name="detail_margin_bottom">8dp</dimen>
+    <dimen name="frag_detail_bottom_margin">4dp</dimen>
+    <dimen name="frag_detail_padding">8dp</dimen>
+    <dimen name="frag_detail_thumbnail_height">240dp</dimen>
+    <dimen name="frag_detail_thumbnail_height_sw600">500dp</dimen>
+    <dimen name="detail_card_radius">3dp</dimen>
+    <dimen name="detail_card_view_height">180dp</dimen>
+    <dimen name="detail_card_view_height_sw600">180dp</dimen>
+    <dimen name="detail_card_view_bottom_margin">24dp</dimen>
+
+    <!--Steps List Item xml-->
+    <dimen name="list_item_margin">6dp</dimen>
+    <dimen name="steps_list_item_height">80dp</dimen>
+
+    <!--Ingredients List Item xml-->
+    <dimen name="ingredients_list_item_larger_margin">6dp</dimen>
+    <dimen name="ingredients_list_item_margin">4dp</dimen>
+    <dimen name="ingredients_list_item_height">60dp</dimen>
+    <dimen name="measure_tv_margin">2dp</dimen>
+
+    <!--Recipe Card View-->
+    <!--Layout detail dimens -->
+    <dimen name="cardview_margin">4dp</dimen>
+    <dimen name="card_image_height">180dp</dimen>
+    <dimen name="card_linear_height">40dp</dimen>
+    <dimen name="recipe_name_tv_marginLft">16dp</dimen>
+    <dimen name="recipe_name_tv_marginTop">8dp</dimen>
+    <dimen name="recipe_name_tv_margin_btm">4dp</dimen>
+    <dimen name="text_view_serving_quantity_margin">8dp</dimen>
+
+    <!--Text Sizes -->
+    <dimen name="standard_text_size">16sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="super_text_size">20sp</dimen>
+    <dimen name="super_large_text_size">24sp</dimen>
+
+</resources>

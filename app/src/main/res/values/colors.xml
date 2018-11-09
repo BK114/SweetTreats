@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6aa0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorEccentric">#b6fff4</color>
+    <color name="colorEccentricLight">#d3fff8</color>
+    <color name="colorActionBar">#ff6aa0</color>
+    <color name="colorWhite">#fff</color>
+    <color name="vanilla">#fdfaee</color>
+    <color name="light_pink">#ffbdd0</color>
+    <color name="dark_grey_text">#333</color>
+
+    <color name="card_view_text">#888</color>
+
+
+    <color name="ingredients_button_background">#66484d</color>
+
+</resources>

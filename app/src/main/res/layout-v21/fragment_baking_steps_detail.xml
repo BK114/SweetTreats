@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baking_steps_detail_ll"
+    android:name="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsDetailFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vanilla"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:layout="@layout/fragment_baking_steps_detail">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frag_detail_thumbnail_height"
+        android:layout_margin="@dimen/detail_margin"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalHalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frag_detail_thumbnail_height"
+        android:layout_margin="@dimen/detail_margin"
+        app:resize_mode="fill"
+        app:srcCompat="@drawable/icecream" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_recipe_step"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frag_detail_thumbnail_height"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/detail_margin"
+        android:layout_marginBottom="@dimen/frag_detail_bottom_margin"
+        android:backgroundTint="@color/colorEccentric"
+        android:scrollbars="vertical"
+        app:cardCornerRadius="@dimen/detail_card_radius">
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorEccentric"
+            android:gravity="center"
+            android:padding="@dimen/frag_detail_padding"
+            android:textSize="@dimen/standard_text_size" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SweetTreats</string>
+    <string name="sample_list_load_error">Error Loading List</string>
+    <string name="title_activity_baking_steps">BakingStepsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">1</string>
+    <string name="title_activity_ingredients">IngredientsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_baking_steps_detail">BakingStepsDetailActivity</string>
+    <string name="recipe_ingredients_button">Recipe Ingredients</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="recipe_steps_button">Show Steps</string>
+    <string name="action_ingredients">Ingredients</string>
+    <string name="recipe_name_ph">Recipe Name</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="widget_image">Widget Image</string>
+    <string name="baking_steps">Baking Steps</string>
+    <string name="last_step">Last Step</string>
+    <string name="next_step">Next Step</string>
+    <string name="image">Detail Image</string>
+    <string name="serving_size">Serving Size</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler_view_ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="end"
+    tools:context="bk_dev.apps.brockrice.sweettreats.activities.IngredientsFragment"
+    tools:showIn="@layout/activity_baking_steps"/>

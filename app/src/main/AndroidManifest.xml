@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brockrice.sweettreats">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="bk_dev.apps.brockrice.sweettreats.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsActivity"
+            android:parentActivityName="bk_dev.apps.brockrice.sweettreats.activities.MainActivity"
+            android:label="@string/title_activity_baking_steps"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bk_dev.apps.brockrice.sweettreats.activities.IngredientsActivity"
+            android:parentActivityName="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsActivity"
+            android:label="@string/title_activity_ingredients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsDetailActivity"
+            android:parentActivityName="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsActivity"
+            android:label="@string/title_activity_baking_steps_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="bk_dev.apps.brockrice.sweettreats.widget.RecipeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/recipe_widget_provider_info" />
+        </receiver>
+        <service android:name="bk_dev.apps.brockrice.sweettreats.widget.IngredientsListWidgetService"
+        android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false"/>
+    </application>
+
+
+</manifest>

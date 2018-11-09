@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_baking_steps"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/steps_list_item_height"
+    android:minHeight="@dimen/steps_list_item_height"
+    android:background="@color/colorEccentric"
+    android:layout_margin="@dimen/list_item_margin">
+
+        <TextView
+            android:id="@+id/tv_shortDescription"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/steps_list_item_height"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/dark_grey_text"
+            android:textStyle="normal" />
+
+    </FrameLayout>

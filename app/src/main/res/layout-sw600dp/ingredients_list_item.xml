@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/steps_list_item_height"
+    android:minHeight="@dimen/steps_list_item_height"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="@dimen/ingredients_list_item_larger_margin">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_horizontal_ingredients"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/ingredients_list_item_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ingredient_quantity"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="@dimen/ingredients_list_item_margin"
+        android:layout_marginEnd="@dimen/ingredients_list_item_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="@dimen/standard_text_size"
+        android:textColor="@color/dark_grey_text"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_measure"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/measure_tv_margin"
+        android:layout_marginStart="@dimen/measure_tv_margin"
+        android:textSize="@dimen/standard_text_size"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/dark_grey_text"
+        android:textStyle="normal" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/measure_tv_margin"
+        android:textSize="@dimen/large_text_size"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/dark_grey_text"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="@dimen/view_line_width"
+        android:layout_height="@dimen/view_line_sm"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/ingredients_button_background"
+        android:layout_marginTop="@dimen/baking_steps_margin"
+        android:layout_marginBottom="@dimen/baking_steps_margin"/>
+
+</LinearLayout>

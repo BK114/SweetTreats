@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsDetailActivity">
+
+    <item
+        android:id="@+id/hamburger_menu"
+        android:icon="@drawable/hamburger"
+        android:title="other"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+
+            <item
+                android:id="@+id/action_settings"
+                android:orderInCategory="1"
+                android:title="@string/action_settings"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_ingredients"
+                android:orderInCategory="2"
+                android:title="@string/action_ingredients"
+                app:showAsAction="collapseActionView" />
+        </menu>
+    </item>
+</menu>

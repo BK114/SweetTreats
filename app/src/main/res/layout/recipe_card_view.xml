@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_recipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorEccentricLight"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/recipe_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_image_height"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/icecream" />
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/recipe_name_tv_marginLft"
+            android:layout_marginStart="@dimen/recipe_name_tv_marginLft"
+            android:layout_marginTop="@dimen/recipe_name_tv_marginTop"
+            android:layout_marginBottom="@dimen/recipe_name_tv_margin_btm"
+            android:fontFamily="serif"
+            android:textColor="@color/dark_grey_text"
+            android:textSize="@dimen/super_large_text_size"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_linear_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/serving_size_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/recipe_name_tv_marginLft"
+                android:layout_marginStart="@dimen/recipe_name_tv_marginLft"
+                android:fontFamily="sans-serif"
+                android:text="@string/serving_size"
+                android:textColor="@color/card_view_text"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_serving_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/card_view_text"
+                android:textSize="@dimen/standard_text_size"
+                android:textStyle="normal"
+                android:layout_marginLeft="@dimen/text_view_serving_quantity_margin"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text_view_short_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/card_view_text"
+            android:textSize="@dimen/standard_text_size"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/recipe_name_tv_marginLft"
+            android:layout_marginStart="@dimen/recipe_name_tv_marginLft" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

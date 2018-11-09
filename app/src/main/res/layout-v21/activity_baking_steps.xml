@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vanilla"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="bk_dev.apps.brockrice.sweettreats.activities.BakingStepsActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:titleTextColor="@color/cardview_light_background">
+
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/indredients_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ingredients_button_height"
+        android:layout_gravity="top"
+        android:layout_margin="@dimen/baking_steps_margin"
+        android:background="@color/ingredients_button_background"
+        android:gravity="center"
+        android:onClick="showIngredients"
+        android:text="@string/recipe_ingredients_button"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="@dimen/standard_text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/baking_steps_tv_height"
+        android:text="@string/baking_steps"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_margin="@dimen/baking_steps_margin"
+        android:textColor="@color/ingredients_button_background"
+        android:textSize="@dimen/standard_text_size"
+        android:background="@color/light_pink"/>
+
+    <FrameLayout
+        android:id="@+id/recipe_steps_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+`
+</LinearLayout>
